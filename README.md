@@ -3,16 +3,9 @@
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
 <ol>
-  <li>
-    <a href="#description">Description</a>
-  </li>
-  <li>
-    <a href="#getting-started">Getting Started</a>
-    <ul>
-      <li><a href="#prerequisites">Prerequisites</a></li>
-      <li><a href="#installation">Installation</a></li>
-    </ul>
-  </li>
+  <li><a href="#description">Description</a></li>
+  <li><a href="#prerequisites">Prerequisites</a></li>
+  <li><a href="#installation">Installation</a></li>
   <li><a href="#usage">Usage</a></li>
   <li><a href="#credits">Credits</a></li>
 </ol>
@@ -31,41 +24,40 @@ reduce the quantity of redundant content from the review.
 <br/>
 <br/>
 
-## Getting Started
-
-### Prerequisites
-
-
-### Installation
-
-1. Clone the repo
-```
-git clone https://github.com/samderry/finalCapstone
-```
-2. Install module 'spacy'
+## Prerequisites
+1. Install module 'spacy'
 ```
 pip install spacy
 ```
-3. Install module 'spacytextblob'
+2. Install module 'spacytextblob'
 ```
 pip install spacytextblob
 ```
-4. Install module 'pandas'
+3. Install module 'pandas'
 ```
 pip install pandas
 ```
-5. Install simple model package
+4. Install simple model package
 ```
 python -m spacy download en_core_web_sm
 ```
+<br/>
 
+## Installation
+
+Clone the repo
+```
+git clone https://github.com/samderry/finalCapstone
+```
+
+<!-- USAGE -->
 ## Usage
 
 > [!IMPORTANT]
 > The data file contained in 'amazon_product_reviews.zip' must be extracted to the project folder before running the program
 <br/>
 
-2. Run the program
+Run the program
 ```
 python sentiment_analysis.py
 ```
@@ -82,6 +74,9 @@ The program should output up to 10 entries from each category of sentiment.
 
 <br/>
 
+The program output should appear as below.
+<br/>
+<br/>
 ![image](https://github.com/samderry/finalCapstone/assets/154550636/8baed101-6650-4f5f-bab0-37d9bda1365b)
 
 <!-- CREDITS -->
