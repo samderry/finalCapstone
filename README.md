@@ -12,7 +12,7 @@
 <br/>
 
 ## Description
-This project generates sentiment analysis. The task involved analysing the sentiment 
+This project generates sentiment analysis. The program analyses the sentiment 
 of a sample set of customer reviews for Amazon products. The dataset comprises 28,332 products reviews 
 including basic product information, rating, review text, and more for each product. The analysis required that 
 the dataset review text be cleaned prior to processing.
