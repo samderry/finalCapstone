@@ -1,1 +1,57 @@
-"# finalCapstone" 
+<h1 align="center">finalCapstone - Sentiment Analysis</h3>
+
+<!-- TABLE OF CONTENTS -->
+## Table of Contents
+<ol>
+  <li>
+    <a href="#description">Description</a>
+  </li>
+  <li>
+    <a href="#getting-started">Getting Started</a>
+    <ul>
+      <li><a href="#prerequisites">Prerequisites</a></li>
+      <li><a href="#installation">Installation</a></li>
+    </ul>
+  </li>
+  <li><a href="#usage">Usage</a></li>
+  <li><a href="#credits">Credits</a></li>
+</ol>
+
+## Description
+This project generates sentiment analysis. The task involved analysing the sentiment 
+of a sample set of customer reviews for Amazon products. The dataset comprises 28,332 products reviews 
+including basic product information, rating, review text, and more for each product. The analysis required that 
+the dataset review text be cleaned prior to processing.
+
+The dataset was pre-processed by selecting only the product review text, and removing any records with a 
+missing product review. Prior to determining the sentiment for each review, the text was converted to 
+lowercase, stripped of any leading whitespace characters, and cleaned of identifiable stop words to try and 
+reduce the quantity of redundant content from the review.
+
+## Getting Started
+
+### Prerequisites
+
+
+### Installation
+
+1. Clone the repo
+```
+git clone https://github.com/samderry/finalCapstone
+```
+
+
+## Usage
+
+> [!IMPORTANT]
+> The data file contained in 'amazon_product_reviews.zip' must be extracted to the project folder before running the program
+
+2. Run the program
+```
+python sentiment_analysis.py
+```
+![image](https://github.com/samderry/finalCapstone/assets/154550636/8baed101-6650-4f5f-bab0-37d9bda1365b)
+
+<!-- CREDITS -->
+## Credits
+Sam Derry
